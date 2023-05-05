@@ -1,0 +1,120 @@
+.heading{
+    height: 40px;
+    line-height: 60px;
+    padding-left:30px;
+    padding-top:50px;
+    font-size: 80px;
+    color:white;
+}
+.sub-heading{
+    height: 60px;
+    line-height: 60px;
+    font-size: 45px;
+    color:white;
+    padding-left:30px;
+    #color: #3b2525;
+    border-bottom: lightgrey solid;
+}
+
+.hero-nav{
+    position: relative;#fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    #display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    min-height: 105px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0,  0.24) 20%, rgba(0, 0, 0, 0.65) 100%),
+        url(https://aessoil.com/wp-content/uploads/2016/01/iStock-527890380.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    .hero-nav__inner{
+        z-index: 1;
+    }
+    
+    &:before{
+        content: "";
+        background: rgba(#000, 0);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        transition: background 400ms;
+    }
+    &.fixme{
+        &:before{
+            background: rgba(#000, 0.8);
+        }
+    }
+}
+
+.page-content{
+    position: relative;
+    #width: 30em;
+    #line-height: 1.625;
+}
+.custom-tabs-container {
+    width: 85%;
+    color:black;
+}
+.custom-tabs {
+    border-top-left-radius: 3px;
+    #background-color: #f9f9f9;
+    background-color: #100E0E;
+    padding: 0px 24px;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.custom-tab {
+    color:#586069;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-top: 3px solid transparent !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-bottom: 0px !important;
+    background-color: #fafbfc;
+    padding: 12px !important;
+    font-family: "system-ui";
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+.custom-tab--selected {
+    color: black;
+    box-shadow: 1px 1px 0px white;
+    border-left: 1px solid lightgrey !important;
+    border-right: 1px solid lightgrey !important;
+    border-top: 3px solid #e36209 !important;
+}
+
+
+.background {
+    background-color: #100E0E;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.graph {
+    background-color: #100E0E;
+    color:white;
+    padding-left: 0px;
+    padding-right: 20px;
+}
+
+.dropdown {
+    background-color: #100E0E;
+    color:black;
+    padding-left: 0px;
+    padding-right: 20px;
+}
+
+.table {
+  width: 680px;
+}
