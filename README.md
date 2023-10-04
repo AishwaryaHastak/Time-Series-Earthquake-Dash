@@ -1,3 +1,4 @@
 # Time-Series-Earthquake-Dash
-Earthquake Dashboard
+
+Time Series Analysis of Earthquake around the world.
 
